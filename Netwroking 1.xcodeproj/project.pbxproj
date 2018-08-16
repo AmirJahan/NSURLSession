@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299AC7A22125F095004D76E7 /* ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 299AC7A12125F095004D76E7 /* ShowAlert.m */; };
 		29C711721F9CFED300AF797D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C711711F9CFED300AF797D /* AppDelegate.m */; };
 		29C711751F9CFED300AF797D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C711741F9CFED300AF797D /* ViewController.m */; };
 		29C711781F9CFED300AF797D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C711761F9CFED300AF797D /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		299AC7A02125F095004D76E7 /* ShowAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAlert.h; sourceTree = "<group>"; };
+		299AC7A12125F095004D76E7 /* ShowAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAlert.m; sourceTree = "<group>"; };
 		29C7116D1F9CFED300AF797D /* Netwroking 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netwroking 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C711701F9CFED300AF797D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29C711711F9CFED300AF797D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				29C711711F9CFED300AF797D /* AppDelegate.m */,
 				29C711731F9CFED300AF797D /* ViewController.h */,
 				29C711741F9CFED300AF797D /* ViewController.m */,
+				299AC7A02125F095004D76E7 /* ShowAlert.h */,
+				299AC7A12125F095004D76E7 /* ShowAlert.m */,
 				29C711761F9CFED300AF797D /* Main.storyboard */,
 				29C711791F9CFED300AF797D /* Assets.xcassets */,
 				29C7117B1F9CFED300AF797D /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 				29C711751F9CFED300AF797D /* ViewController.m in Sources */,
 				29C711801F9CFED300AF797D /* main.m in Sources */,
 				29C711721F9CFED300AF797D /* AppDelegate.m in Sources */,
+				299AC7A22125F095004D76E7 /* ShowAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

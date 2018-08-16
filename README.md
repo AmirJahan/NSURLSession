@@ -1,11 +1,11 @@
-# NSURLSession
+### NSURLSession
 Basics of networking (Communication between two computers)
 Protocols help organizing remote communications. 
 A Protocol is a rule that computers should adhere to if they wish to speak to one another.
 
 
 Protocols:
-TCP/IP (Transmission Control Protocol/Internet Protocol) is the basic communication language or protocol of the Internet
+TCP/IP (Transmission Control Protocol / Internet Protocol) is the basic communication language or protocol of the Internet
 HTTP: Hypertext Transfer Protocol 
 FTP: File Transfer Protocol
 
@@ -13,10 +13,12 @@ Networking terminology:
 	Client	
 	Server
 	Request
-	Response.
+	Response
 
 
-Client: Makes a request to a host computer. Host: Returns a response to the client.
+Client: Makes a request to a host computer.
+Host: Returns a response to the client.
+
 Server-side vs client-side
 
 HTTP
@@ -72,9 +74,7 @@ JSON can contain:
     Strings "anything"
 
 
-NSURLRequest encapsulates an HTTP method (it contains the URL to send the request to, the HTTP method, and the body of the request)
-
-NSURLSession and NSURLSessionTask send HTTP requests
+NSURLRequest encapsulates an HTTP method (it contains the URL to send the request to, the HTTP method, and the body of the request), NSURLSession and NSURLSessionTask send HTTP requests
 
 The server response is returned by a session task as an NSData object. 
 We then have to parse that using NSJSONSerialization.
